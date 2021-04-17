@@ -1,9 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import image1 from "../assets/Slider/Image1.png";
-import image2 from "../assets/Slider/Image2.png";
 import image3 from "../assets/Slider/12.png";
-import image4 from "../assets/Slider/123.jpeg";
+
 
 const Slider = () => {
 	return (
@@ -12,7 +10,6 @@ const Slider = () => {
 				<img
 					src={image3}
 					alt="First slide"
-					// style={{height: 400 }}
 				/>
 				<Carousel.Caption>
 					<div className="flex justify-between">

@@ -2,7 +2,8 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import image1 from "../assets/Slider/Image1.png";
 import image2 from "../assets/Slider/Image2.png";
-import image3 from "../assets/Slider/01.jpg";
+import image3 from "../assets/Slider/12.png";
+import image4 from "../assets/Slider/123.jpeg";
 
 const Slider = () => {
 	return (
@@ -11,23 +12,23 @@ const Slider = () => {
 				<img
 					src={image3}
 					alt="First slide"
-					// style={{ width: "100%", height: 550 }}
+					// style={{height: 400 }}
 				/>
 				<Carousel.Caption>
 					<div className="flex justify-between">
 						<div className="md:leading-none leading-3 mt-4 md:m-0">
-							<label className="font-bold text-black md:text-3xl text-xs ">
+							<label className="font-bold text-white md:text-3xl text-xs ">
 								<span className="font-extrabold md:text-6xl text-lg text-color-main animate-pulse">
 									Payifi
 								</span>{" "}
 								is trusted by lakhs
 							</label>
 							<br />
-							<label className="font-bold text-black md:text-3xl text-xs">
+							<label className="font-bold text-white md:text-3xl text-xs">
 								of Indian Retailers
 							</label>
 							<br />
-							<label className="font-bold text-black md:text-3xl text-xs">
+							<label className="font-bold text-white md:text-3xl text-xs">
 								Become a Payifi Sathi
 							</label>
 							<br />
@@ -35,7 +36,7 @@ const Slider = () => {
 								Learn More
 							</button>
 						</div>
-						<div className="text-center mt-3 mr-3 md:m-0 leading-3 md:leading-10">
+						{/* <div className="text-center mt-3 mr-3 md:m-0 leading-3 md:leading-10">
 							<label className="font-bold text-black text-xs md:text-2xl">
 								To start using Payifi Retailer Services
 							</label>
@@ -54,7 +55,7 @@ const Slider = () => {
 							<button className="btn-style focus:outline-none md:h-10 h-6 md:font-medium md:w-48 w-32 text-xs md:text-base rounded-xl md:mt-2  ">
 								CREATE ACCOUNT
 							</button>
-						</div>
+						</div> */}
 					</div>
 				</Carousel.Caption>
 			</Carousel.Item>

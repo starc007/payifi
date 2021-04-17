@@ -28,9 +28,9 @@ const Float = () => {
 				<AiOutlineMenu size={40} color="#000" className="ham-btn" />
 			</div> */}
 			<div className="col-3 menu1">
-				<div className="menu-btn">
-					<AiOutlineMenu size={19} className="ham-btn" onClick={myFunction} />
-				</div>
+				<button className="menu-btn focus:outline-none" onClick={myFunction}>
+					<AiOutlineMenu size={19} className="ham-btn" />
+				</button>
 				<ul id="myDropdown" className="dropdown-menu-content">
 					<a href="/services/bill-payment-recharge">
 						<li>

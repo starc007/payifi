@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
-// import { CardData } from "./CardData";
 
 import Card1 from '../assets/Card/Card1.jpeg'
 import Card2 from '../assets/Card/Card2.png'

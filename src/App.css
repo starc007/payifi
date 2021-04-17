@@ -26,11 +26,12 @@
 }
 .carousel-caption {
 	left: 10%;
-	top: 17%;
+	top: 10%;
 	bottom: auto;
-	/* width: 35%; */
+	width: 35%;
 	right: 4%;
 	text-align: unset;
+	
 }
 .text-color-main {
 	color: #F0611C;
@@ -100,7 +101,7 @@
 /* Parallax  */
 .parallax {
   /* The image used */
-  background-image: url("./assets/Slider/12.png");
+  /* background-image: url("./assets/Slider/12.png"); */
 
   /* Set a specific height */
   height: 70vh; 

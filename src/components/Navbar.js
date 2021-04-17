@@ -17,7 +17,7 @@ const Header = () => {
 						id="basic-nav-dropdown"
 						renderMenuOnMount={true}
 					>
-						<NavDropdown.Item href="/about-us">About us</NavDropdown.Item>
+						<NavDropdown.Item href="about-us">About us</NavDropdown.Item>
 						<NavDropdown.Item href="#action/3.2">Blog</NavDropdown.Item>
 						<NavDropdown.Item href="#action/3.3">
 							Career Culture

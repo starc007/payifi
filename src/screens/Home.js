@@ -169,7 +169,7 @@ const Home = () => {
 							></li>
 							<li data-target="#testimonial_095" data-slide-to="1"></li>
 						</ol>
-						<div class="carousel-inner" role="listbox">
+						<div className="mb-2 carousel-inner" role="listbox">
 							<div className="carousel-item active">
 								<div className="testimonial_095_slide">
 									<a href="#">
@@ -221,7 +221,6 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			{/* <Footer /> */}
 		</div>
 	);
 };

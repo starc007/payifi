@@ -5,16 +5,23 @@
 	width: 7%;
 }
 
-.menu1 ul {
+.menu1 {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-menu-content {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	z-index: 10;
 	position: fixed;
 	line-height: 100%;
-	margin-top: 70px;
+	margin-top: 95px;
 	display: none;
 }
+
+.show {display: block;}
 
 /* .menu1 ul:hover {
 	display: block;
@@ -25,9 +32,9 @@
 	z-index: 10;
 	position: fixed;
 	line-height: 100%;
-	margin-top: 70px;
-	height: 47px;
-	width: 50px;
+	margin-top: 65px;
+	height: 30px;
+	width: 35px;
 	margin-left: 20px;
 	border-radius: 5px;
 	border: 1px solid #a72561;
@@ -43,7 +50,7 @@
 
 .ham-btn {
 	cursor: pointer;
-	margin: 0.53em;
+	margin: 0.40em;
 	color: #a72561;
 }
 

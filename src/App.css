@@ -101,7 +101,7 @@
 /* Parallax  */
 .parallax {
   /* The image used */
-  /* background-image: url("./assets/Slider/12.png"); */
+  background-image: url("./assets/Slider/Slider1.png");
 
   /* Set a specific height */
   height: 70vh; 
@@ -111,4 +111,28 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.img-sir{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 85px;
+	height:170px;
+	width:170px;
+	margin-left: 40%;
+}
+
+@media only screen and (max-width: 770px) {
+	/* For mobile phones: */
+	.img-sir{
+		margin: 0;
+	}
+	.text{
+		text-align: center;
+	}
+	.icn{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }

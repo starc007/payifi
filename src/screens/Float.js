@@ -24,9 +24,6 @@ const Float = () => {
 	};
 	return (
 		<div>
-			{/* <div className="menu-btn">
-				<AiOutlineMenu size={40} color="#000" className="ham-btn" />
-			</div> */}
 			<div className="col-3 menu1">
 				<button className="menu-btn focus:outline-none" onClick={myFunction}>
 					<AiOutlineMenu size={19} className="ham-btn" />

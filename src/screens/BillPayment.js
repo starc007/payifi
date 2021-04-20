@@ -3,6 +3,7 @@ import Header from '../components/Navbar';
 import Recharge from '../assets/Content/1.jpeg'
 import Mrecharge from '../assets/Content/Mrecharge.png'
 import Utility from "../assets/Content/Utility.png";
+import Dth from "../assets/Content/Dth.png";
 
 
 const BillPayment = () => {
@@ -88,8 +89,8 @@ const BillPayment = () => {
 								Register here to Know More
 							</button>
 						</div>
-						<div className="md:w-1/2 p-2 ">
-							<img src={Recharge} />
+						<div className="md:w-1/2 pl-4 pt-4 ">
+							<img src={Dth} width="380" />
 						</div>
 					</div>
 					<div className="h-auto flex-wrap flex w-full bg-gray-100">

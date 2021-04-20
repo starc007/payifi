@@ -34,24 +34,30 @@ const Distributor = () => {
 						Payifi Aspire to build Network of
 					</p>
 					<div className="md:flex flex-wrap w-full margin icn">
-						<div className="md:w-1/3 w-full box-css pt-2 md:p-0">
-							<div className="icn icn-distributor">
-								<AiFillShop size={48} className="text-color-main" />
+						<div className="md:w-1/3 w-full box-css pt-2 ">
+							<div className="icn ">
+								<AiFillShop
+									size={48}
+									className="text-color-main icn-distributor"
+								/>
 							</div>
 
 							<p className="text-3xl font-bold text">2 Lakh+</p>
 							<p className="text-2xl -mt-4 text">Retailers</p>
 						</div>
-						<div className="md:w-1/3 w-full box-css pt-2 md:p-0 ">
-							<div className="icn icn-distributor">
-								<IoIosPeople size={48} className=" text-color-main " />
+						<div className="md:w-1/3 w-full box-css pt-2 ">
+							<div className="icn ">
+								<IoIosPeople
+									size={48}
+									className=" text-color-main icn-distributor "
+								/>
 							</div>
 
 							<p className="text-3xl font-bold text">10 Lakh+</p>
 
 							<p className="text-2xl -mt-4 text">Consumers</p>
 						</div>
-						<div className="md:w-1/3 w-full box-css pt-2 md:p-0">
+						<div className="md:w-1/3 w-full box-css pt-2">
 							<div className="icn">
 								<FaBuilding size={48} className=" text-color-main " />
 							</div>
@@ -187,7 +193,10 @@ const Distributor = () => {
 									<Form.Control placeholder="Enter Pincode" type="text" />
 								</Form.Group>
 								<div className="flex justify-center">
-									<button className="btn-style focus:outline-none h-10 font-medium w-32 text-base rounded" type="submit">
+									<button
+										className="btn-style focus:outline-none h-10 font-medium w-32 text-base rounded"
+										type="submit"
+									>
 										Generate OTP
 									</button>
 								</div>

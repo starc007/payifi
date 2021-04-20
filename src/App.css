@@ -142,7 +142,10 @@
 		margin-top: 20px;
 	}
 	.icn-distributor {
-		margin-left: 0;
+		margin-left: 0%;
+	}
+	.padd-0{
+		padding: 0;
 	}
 }
 .icn-distributor {

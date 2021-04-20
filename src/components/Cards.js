@@ -1,18 +1,18 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 
-import Card1 from '../assets/Card/Card1.jpeg'
-import Card2 from '../assets/Card/Card2.png'
-import Card3 from '../assets/Card/Card3.png'
-import Card4 from '../assets/Card/Card4.png'
-import Card5 from '../assets/Card/Card5.png'
-import Card6 from '../assets/Card/Card6.png'
+import Card1 from "../assets/Card/Card1.jpeg";
+import Card2 from "../assets/Card/Card2.png";
+import Card3 from "../assets/Card/Card3.png";
+import Card4 from "../assets/Card/Card4.png";
+import Card5 from "../assets/Card/Card5.png";
+import Card6 from "../assets/Card/Card6.png";
 
 const Cards = () => {
 	return (
 		<div>
-			<Row>
-				<Col>
+			<div className="flex flex-wrap justify-center">
+				<div>
 					<Card
 						style={{ width: "20rem", margin: 20 }}
 						className="text-center shadow-lg rounded"
@@ -35,8 +35,8 @@ const Cards = () => {
 							</button>
 						</Card.Footer>
 					</Card>
-				</Col>
-				<Col>
+				</div>
+				<div>
 					<Card
 						style={{ width: "20rem", margin: 20 }}
 						className="text-center shadow-lg rounded"
@@ -59,8 +59,8 @@ const Cards = () => {
 							</button>
 						</Card.Footer>
 					</Card>
-				</Col>
-				<Col>
+				</div>
+				<div>
 					<Card
 						style={{ width: "20rem", margin: 20 }}
 						className="text-center shadow-lg rounded"
@@ -85,10 +85,10 @@ const Cards = () => {
 							</button>
 						</Card.Footer>
 					</Card>
-				</Col>
-			</Row>
-			<Row>
-				<Col>
+				</div>
+			</div>
+			<div className="flex flex-wrap justify-center">
+				
 					<Card
 						style={{ width: "20rem", margin: 20 }}
 						className="text-center shadow-lg rounded"
@@ -111,8 +111,8 @@ const Cards = () => {
 							</button>
 						</Card.Footer>
 					</Card>
-				</Col>
-				<Col>
+			
+				<div>
 					<Card
 						style={{ width: "20rem", margin: 20 }}
 						className="text-center shadow-lg rounded"
@@ -133,8 +133,8 @@ const Cards = () => {
 							</button>
 						</Card.Footer>
 					</Card>
-				</Col>
-				<Col>
+				</div>
+				<div>
 					<Card
 						style={{ width: "20rem", margin: 20 }}
 						className="text-center shadow-lg rounded"
@@ -156,8 +156,8 @@ const Cards = () => {
 							</button>
 						</Card.Footer>
 					</Card>
-				</Col>
-			</Row>
+				</div>
+			</div>
 		</div>
 	);
 };

@@ -4,7 +4,7 @@ import Float from "./Float";
 import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
 import Cards from "../components/Cards";
-import OurPresence from "../assets/123.jpeg";
+import OurPresence from "../assets/314.png";
 import Footer from "../components/Footer";
 
 import razorpayLogo from "../assets/Partners/razorpay-logo.png";
@@ -13,10 +13,8 @@ import iciciLogo from "../assets/Partners/icici-logo.png";
 import sbmLogo from "../assets/Partners/SBM-logo.png";
 import rapipayLogo from "../assets/Partners/rapipay-logo.png";
 
-import '../Testimonial.css'
+import "../Testimonial.css";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
-
-
 
 const Home = () => {
 	return (
@@ -30,9 +28,9 @@ const Home = () => {
 				<div className="flex items-center justify-center h-24">
 					<p className="text-color-main text-4xl font-medium">Our Services</p>
 				</div>
-				<div className="flex flex-wrap justify-center">
-					<Cards />
-				</div>
+
+				<Cards />
+
 				<div className="md:h-screen h-auto bg-gray-200">
 					<p className="text-center text-xl font-bold flex-wrap md:text-4xl pt-4">
 						Become a Payifi Partner and Earn 50,000 per Month
@@ -41,7 +39,7 @@ const Home = () => {
 						Become a India Ka Digital Dukandar
 					</p>
 					<div className="flex flex-wrap w-full">
-						<div style={{width:"10%"}}></div>
+						<div style={{ width: "10%" }}></div>
 						<div className="md:w-2/5 w-full flex-wrap m-4">
 							<p className="font-medium md:text-lg text-base">
 								Payifi empowers local dukandars to become part of the country’s
@@ -118,7 +116,7 @@ const Home = () => {
 							</p>
 						</div>
 						<div className="md:w-2/5 w-full">
-							<img src={OurPresence} />
+							<img src={OurPresence} width="400" className="pl-4" />
 						</div>
 					</div>
 				</div>
@@ -159,7 +157,9 @@ const Home = () => {
 					>
 						<div className="testimonial_095_header">
 							<h5>Success Stories</h5>
-							<label className="font-medium text-2xl">How Payifi helps to Earn More?</label>
+							<label className="font-medium text-2xl">
+								How Payifi helps to Earn More?
+							</label>
 						</div>
 						<ol className="carousel-indicators">
 							<li

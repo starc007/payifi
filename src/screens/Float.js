@@ -36,7 +36,7 @@ const Float = () => {
 						</li>
 					</a>
 					<br />
-					<a href="/services/bill-payment-recharge">
+					<a href="/services/banking-services">
 						<li>
 							<FaPiggyBank size={32} className="ml-4 mb-1" />
 							Banking Services

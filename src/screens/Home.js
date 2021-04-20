@@ -4,7 +4,7 @@ import Float from "./Float";
 import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
 import Cards from "../components/Cards";
-import OurPresence from "../assets/our-presence.png";
+import OurPresence from "../assets/123.jpeg";
 import Footer from "../components/Footer";
 
 import razorpayLogo from "../assets/Partners/razorpay-logo.png";

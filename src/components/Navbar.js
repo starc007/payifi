@@ -23,14 +23,16 @@ const Header = () => {
 							Career Culture
 						</NavDropdown.Item>
 					</NavDropdown>
-					
+
 					<NavDropdown
 						renderMenuOnMount={true}
 						title="Partner with us"
 						id="basic-nav-dropdown"
 					>
 						<NavDropdown.Item href="#action/3.1">Retailer</NavDropdown.Item>
-						<NavDropdown.Item href="#action/3.2">Distributor</NavDropdown.Item>
+						<NavDropdown.Item href="/partner-with-us/distributor">
+							Distributor
+						</NavDropdown.Item>
 						<NavDropdown.Item href="#action/3.3">
 							Developer API
 						</NavDropdown.Item>

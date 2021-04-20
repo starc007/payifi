@@ -31,7 +31,6 @@
 	width: 35%;
 	right: 4%;
 	text-align: unset;
-	
 }
 .text-color-main {
 	color: #a72561;
@@ -87,8 +86,6 @@
 	margin-left: 10px;
 }
 
-
-
 /* footer  */
 .footer {
 	height: 60vh;
@@ -100,39 +97,59 @@
 
 /* Parallax  */
 .parallax {
-  /* The image used */
-  background-image: url("./assets/Slider/Slider1.png");
+	/* The image used */
+	background-image: url("./assets/Aboutus.jpeg");
 
-  /* Set a specific height */
-  height: 70vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	height: 70vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.img-sir{
+.img-sir {
 	background-color: #fff;
-	border: 1px solid #000;
+	/* border: 1px solid #000;
 	border-radius: 85px;
 	height:170px;
-	width:170px;
+	width:170px; */
 	margin-left: 40%;
 }
-
+.margin {
+	padding-left: 20%;
+}
 @media only screen and (max-width: 770px) {
-	/* For mobile phones: */
-	.img-sir{
+	.img-sir {
 		margin: 0;
 	}
-	.text{
+	.text {
 		text-align: center;
 	}
-	.icn{
+	.icn {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
+	.margin {
+		padding-left: 0;
+	}
+	.box-css {
+		/* border: 1px solid black; */
+		width: 60%;
+		box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.42);
+		-webkit-box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.42);
+		-moz-box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.42);
+		margin-top: 20px;
+	}
+	.icn-distributor {
+		margin-left: 0;
+	}
+}
+.icn-distributor {
+	margin-left: 7%;
+}
+.text-content {
+	top: 20%;
+	width: 50%;
+	left: 10%;
 }

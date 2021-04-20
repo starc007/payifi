@@ -38,26 +38,7 @@ const Slider = () => {
 							</button>
 							{/* </div> */}
 						</div>
-						{/* <div className="text-center mt-3 mr-3 md:m-0 leading-3 md:leading-10">
-							<label className="font-bold text-black text-xs md:text-2xl">
-								To start using Payifi Retailer Services
-							</label>
-							<br />
-							<button className="items-center justify-center btn-style focus:outline-none md:h-10 h-6 w-40 md:font-medium md:w-56 text-xs md:text-base rounded-xl md:my-2 ">
-								CREATE ACCOUNT FOR FREE
-							</button>
-							<br />
-							<label className="line-styling text-black md:font-bold md:mt-2 text-xs">
-								OR
-							</label>
-							<label className="font-bold text-black md:text-2xl md:mt-2 text-xs">
-								To start using our Distributor Service
-							</label>
-							<br />
-							<button className="btn-style focus:outline-none md:h-10 h-6 md:font-medium md:w-48 w-32 text-xs md:text-base rounded-xl md:mt-2  ">
-								CREATE ACCOUNT
-							</button>
-						</div> */}
+						
 					</div>
 				</Carousel.Caption>
 			</Carousel.Item>

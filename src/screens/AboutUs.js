@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "../components/Navbar";
+import Face from '../assets/Face.png'
 import {
 	FaLinkedin,
 
 } from "react-icons/fa";
 
 import gif from "../assets/Images/Payifi GIF.gif";
+import { Image } from "react-bootstrap";
 
 const AboutUs = () => {
 	return (
@@ -16,8 +18,10 @@ const AboutUs = () => {
 			<div>
 				<div className="parallax h-auto">
 					<div className="md:w-1/2 p-5 w-full">
-						<label className="md:text-4xl md:font-bold">Our Story</label>
-						<p className="md:font-medium md:text-base">
+						<label className="md:text-4xl md:font-bold text-white">
+							Our Story
+						</label>
+						<p className="md:font-medium md:text-base text-white">
 							The Primary aims of Formation of Payifi are “Financial Inclusion”
 							and “Transparency”. Financial Inclusion aims to provide the
 							Banking Services to the Last Mile with Transparency in the System
@@ -40,7 +44,7 @@ const AboutUs = () => {
 					</label>
 					<div className="flex pl-4 flex-wrap w-full">
 						<div className="md:w-1/2 w-full">
-							<p className="md:font-medium md:text-lg">
+							<p className="md:font-medium md:text-lg flex-wrap">
 								Financial Inclusion doesn’t restrict just to rural or backward
 								India, its primary aim to include every Indian to banking
 								services irrespective of location. Indian Retail Market in both
@@ -96,49 +100,49 @@ const AboutUs = () => {
 						mile.
 					</p>
 				</div>
-				<div className="bg-white text-center h-auto flex-wrap">
-					<p className="text-4xl font-bold pt-2">Vision</p>
-					<p className="text-base">
+				<div className="bg-white h-auto flex-wrap">
+					<p className="text-4xl font-medium pt-2 text-center">Vision</p>
+					<p className="text-base text-center">
 						To entrust and Transform Lives, through providing Innovative
 						Financial Solutions in Digital Payments.
 					</p>
-					<p className="text-4xl font-bold ">Mission</p>
-					<p className="text-base">
+					<p className="text-4xl font-medium text-center">Mission</p>
+					<p className="text-base text-center flex-wrap">
 						To establish a robust nationwide payment ecosystem, in a seamlessly
 						networked environment, using mobile technology to deliver payments
 						and remittances in real time.
 					</p>
-					<p className="text-4xl font-bold ">Values</p>
-					<p className="text-base">
-						SECURITY & TRUST: We strive to become the most secure and trusted
-						brand in the market we operate
+					<p className="text-4xl font-medium text-center ">Values</p>
+					<p className="text-base pl-5 flex-wrap">
+						<span className="font-bold">SECURITY & TRUST: </span> We strive to
+						become the most secure and trusted brand in the market we operate
 						<br />
-						UNITY & TEAM WORK: When many hands join together filled with
-						dedication and motivation to achieve a certain goal, it becomes
-						easier and better.
+						<span className="font-bold">UNITY & TEAM WORK: </span> When many
+						hands join together filled with dedication and motivation to achieve
+						a certain goal, it becomes easier and better.
 						<br />
-						TRANSPARENCY: We are transparent in all our dealings with
-						stakeholders in letter and sprits.
+						<span className="font-bold">TRANSPARENCY: </span>We are transparent
+						in all our dealings with stakeholders in letter and sprits.
 						<br />
-						PASSION & EXCELLENCE: We are passionate about everything we do which
-						includes keeping relations with our employees and customers,
-						providing them with the best of our services and fulfill their
-						requirements.
+						<span className="font-bold">PASSION & EXCELLENCE:</span> We are
+						passionate about everything we do which includes keeping relations
+						with our employees and customers, providing them with the best of
+						our services and fulfill their requirements.
 						<br />
-						ETHICS: We act with honesty, integrity and professionalism
-						maintaining high level of moral standards, while dealing with all
-						our stakeholders .
+						<span className="font-bold">ETHICS:</span> We act with honesty,
+						integrity and professionalism maintaining high level of moral
+						standards, while dealing with all our stakeholders .
 					</p>
 				</div>
 				<div className="bg-gray-100 h-auto text-center flex-wrap pb-2">
-					<p className="text-4xl font-bold pt-2">Our Partners</p>
-					<p className="text-base">
+					<p className="text-4xl pt-2">Our Partners</p>
+					<p className="text-base flex-wrap">
 						We at payifi partnered with various banks and other Financial
 						Institutions to empower and provide Financial Inclusion services at
-						the Last mile, through Our Distributors, Whitelabel and API
-						Partners.
+						the Last mile, <br />
+						through Our Distributors, Whitelabel and API Partners.
 					</p>
-					<p className="text-4xl font-bold">Our Partners</p>
+					<p className="text-4xl">Benefits with Us?</p>
 					<p className="text-base font-medium">
 						Secure and Safe environment <br />
 						Cost Effective
@@ -149,10 +153,13 @@ const AboutUs = () => {
 					</p>
 				</div>
 				<div className="bg-white h-auto pb-4">
-					<p className="text-4xl font-bold text-center">Our Team</p>
+					<p className="text-4xl font-medium text-center">Our Team</p>
 					<div className="flex w-full flex-wrap">
 						<div className="md:w-1/3 w-full flex justify-center items-center">
-							<div className="img-sir"></div>
+							<div className="img-sir">
+								{/* <img src={Face} /> */}
+								<Image src={Face} roundedCircle width="121" height="140" />
+							</div>
 						</div>
 						<div className="md:w-2/3 w-full text">
 							<label className="text-color-main  text-2xl">
@@ -161,7 +168,7 @@ const AboutUs = () => {
 							<div className="icn">
 								<FaLinkedin size={26} color="#007BB5" />
 							</div>
-							<p className="text-base font-semibold">
+							<p className="text-base font-semibold flex-wrap">
 								Having a vast Experience in various Fields right from Banking to
 								Real Estate to Retail Industry, worked with various Reputed
 								Organizations, his rich experience brings dynamics to the
@@ -181,7 +188,7 @@ const AboutUs = () => {
 							<div className="icn">
 								<FaLinkedin size={26} color="#007BB5" />
 							</div>
-							<p className="text-base font-semibold">
+							<p className="text-base font-semibold flex-wrap">
 								Co- Founded the company and has a vast experience in Tech and
 								Retail, Looking after the Operations in the company right from
 								Product development Till delivery, her ability to conjugate with
@@ -201,7 +208,7 @@ const AboutUs = () => {
 							<div className="icn">
 								<FaLinkedin size={26} color="#007BB5" />
 							</div>
-							<p className="text-base font-semibold">
+							<p className="text-base font-semibold flex-wrap">
 								Co- Founded the company and has a rich experience in Building
 								the Go to Market Strategies along with her right Entrepreneurial
 								Skills and in depth understanding of market makes her problem

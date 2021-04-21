@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/Navbar";
-import Recharge from "../assets/Content/1.jpeg";
+import Header from "../../components/Navbar";
+import Recharge from "../../assets/Content/1.jpeg";
 
 const BillPayment = () => {
 	return (

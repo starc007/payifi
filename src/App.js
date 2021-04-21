@@ -3,11 +3,13 @@ import React from 'react'
 import {BrowserRouter as Router,Route, Switch, Redirect} from 'react-router-dom'
 import Home from "./screens/Home";
 import Footer from "./components/Footer";
-import BillPayment from "./screens/BillPayment";
-import BankingService from "./screens/BankingService";
+import BillPayment from "./screens/services/BillPayment";
+import BankingService from "./screens/services/BankingService";
 import Float from "./screens/Float";
 import AboutUs from "./screens/AboutUs";
 import Distributor from "./screens/Distributor";
+import PaymentService from "./screens/services/PaymentService";
+import GiftCard from "./screens/services/GiftCard";
 
 function App() {
 	return (
@@ -25,6 +27,16 @@ function App() {
 					path="/services/banking-services"
 					exact={true}
 					component={BankingService}
+				/>
+				<Route
+					path="/services/payment-services"
+					exact={true}
+					component={PaymentService}
+				/>
+				<Route
+					path="/services/gift-cards"
+					exact={true}
+					component={GiftCard}
 				/>
 				<Route path="/about-us" exact={true} component={AboutUs} />
 				<Route

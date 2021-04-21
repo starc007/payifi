@@ -40,8 +40,8 @@
 	/* For mobile phones: */
 	.carousel-caption {
 		bottom: auto;
-		width: 100%;
-		top: 0px;
+		width: 50%;
+		top: 0;
 		left: 10px;
 		text-align: unset;
 	}

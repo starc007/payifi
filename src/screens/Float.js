@@ -43,14 +43,14 @@ const Float = () => {
 						</li>
 					</a>
 					<br />
-					<a href="#">
+					<a href="/services/payment-services">
 						<li className="li-extra">
 							<GiBanknote size={32} className="ml-4 mb-1" />
 							Payment Services
 						</li>
 					</a>
 					<br />
-					<a href="#">
+					<a href="/services/gift-cards">
 						<li className="li-extra1">
 							<AiFillBank size={32} className="ml-4 mb-1" />
 							Gift Cards

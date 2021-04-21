@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/Navbar';
-import Recharge from '../assets/Content/1.jpeg'
-import Mrecharge from '../assets/Content/Mrecharge.png'
-import Utility from "../assets/Content/Utility.png";
-import Dth from "../assets/Content/Dth.png";
+import Header from '../../components/Navbar';
+import Recharge from '../../assets/Content/1.jpeg'
+import Mrecharge from '../../assets/Content/Mrecharge.png'
+import Utility from "../../assets/Content/Utility.png";
+import Dth from "../../assets/Content/Dth.png";
 
 
 const BillPayment = () => {

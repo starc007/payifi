@@ -29,7 +29,7 @@ const Slider = () => {
 							</label>
 							<br />
 							{/* <div className=""> */}
-							<button className=" btn-style focus:outline-none md:h-10 h-5 w-56 text-xs md:w-64 md:text-base rounded-lg mb-4 mt-2">
+							<button className=" btn-style focus:outline-none md:h-10 h-5 w-56 text-xs md:w-64 md:text-base rounded-lg md:mb-4 mb-2 mt-2">
 								CREATE ACCOUNT FOR DISTRIBUTOR
 							</button>
 							<br />

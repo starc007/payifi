@@ -144,9 +144,9 @@
 	.icn-distributor {
 		margin-left: 0%;
 	}
-	.padd-0{
-		padding: 0;
-	}
+	.padd div {
+	margin: 2% 0% 2% 0%;
+}
 }
 .icn-distributor {
 	margin-left: 7%;
@@ -155,4 +155,7 @@
 	top: 20%;
 	width: 50%;
 	left: 10%;
+}
+.div1 {
+	margin: 2% 2% 2% 0%;
 }

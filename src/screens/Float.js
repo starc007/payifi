@@ -30,42 +30,42 @@ const Float = () => {
 				</button>
 				<ul id="myDropdown" className="dropdown-menu-content">
 					<a href="/services/bill-payment-recharge">
-						<li>
+						<li className="li-extra">
 							<FaPiggyBank size={32} className="ml-4 mb-1" />
 							Bill Payment & Recharges
 						</li>
 					</a>
 					<br />
 					<a href="/services/banking-services">
-						<li>
+						<li className="li-extra">
 							<FaPiggyBank size={32} className="ml-4 mb-1" />
 							Banking Services
 						</li>
 					</a>
 					<br />
 					<a href="#">
-						<li>
+						<li className="li-extra">
 							<GiBanknote size={32} className="ml-4 mb-1" />
 							Payment Services
 						</li>
 					</a>
 					<br />
 					<a href="#">
-						<li style={{ height: "11vh" }}>
+						<li className="li-extra1">
 							<AiFillBank size={32} className="ml-4 mb-1" />
 							Gift Cards
 						</li>
 					</a>
 					<br />
 					<a href="#">
-						<li style={{ height: "11vh" }}>
+						<li className="li-extra1">
 							<RiBankCardFill size={32} className="ml-4 mb-1" />
 							Whitelabel
 						</li>
 					</a>
 					<br />
 					<a href="#">
-						<li style={{ height: "11vh" }}>
+						<li className="li-extra1">
 							<RiBankCardFill size={32} className="ml-4 mb-1" />
 							API Services
 						</li>

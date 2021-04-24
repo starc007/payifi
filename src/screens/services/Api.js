@@ -94,8 +94,7 @@ const Api = () => {
 			</div>
 			<div className="h-auto ">
 				<p className="md:text-5xl text-3xl font-bold text-center flex-wrap">
-					Build Payments or Banking App <br />
-					Using IndiaStack
+					Build Payments or Banking App 
 				</p>
 				<div className="h-auto flex-wrap flex justify-center">
 					<div className="md:w-1/4 w-full p-4">

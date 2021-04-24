@@ -12,6 +12,8 @@ import paisaLogo from "../assets/Partners/99paisa-lohgo.png";
 import iciciLogo from "../assets/Partners/icici-logo.png";
 import sbmLogo from "../assets/Partners/SBM-logo.png";
 import rapipayLogo from "../assets/Partners/rapipay-logo.png";
+import face1 from '../assets/01.png'
+import face2 from '../assets/02.png'
 
 import "../Testimonial.css";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
@@ -173,8 +175,10 @@ const Home = () => {
 							<div className="carousel-item active">
 								<div className="testimonial_095_slide">
 									<a href="#">
-										<span class="fa fa-twitter"></span>
+										{/* <span class="fa fa-twitter"></span> */}
+										<img src={face1} />
 									</a>
+
 									<p>
 										The Various Services Provided by the Payifi are easy to use
 										and are Flawless. The all in one services on the single
@@ -190,8 +194,9 @@ const Home = () => {
 							<div class="carousel-item">
 								<div class="testimonial_095_slide">
 									<a href="#">
-										<span class="fa fa-twitter"></span>
+										<img src={face2} />
 									</a>
+
 									<p>
 										Payifi empowers women like me from the Rural and Sub Urban
 										Areas to help us to earn more. Payifi Provides the

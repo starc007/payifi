@@ -21,9 +21,7 @@
 	display: block;
 }
 /* Slider */
-.slider {
-	margin-top: -17px;
-}
+
 .carousel-caption {
 	left: 10%;
 	top: 10%;
@@ -162,4 +160,11 @@
 }
 .div1 {
 	margin: 2% 2% 2% 0%;
+}
+
+.fixed-width{
+	width: 265px;
+}
+.div-marg div{
+	margin:6px
 }

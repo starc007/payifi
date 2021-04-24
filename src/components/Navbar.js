@@ -12,18 +12,32 @@ const Header = () => {
 
 			<Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
 				<Nav>
+					<Nav.Link href="/about-us">About Us</Nav.Link>
+
 					<NavDropdown
-						title="About"
-						id="basic-nav-dropdown"
 						renderMenuOnMount={true}
+						title="Services"
+						id="basic-nav-dropdown"
 					>
-						<NavDropdown.Item href="/about-us">About us</NavDropdown.Item>
-						<NavDropdown.Item href="#action/3.2">Blog</NavDropdown.Item>
-						<NavDropdown.Item href="#action/3.3">
-							Career Culture
+						<NavDropdown.Item href="/services/bill-payment-recharge">
+							Bill Payment & Recharges
+						</NavDropdown.Item>
+						<NavDropdown.Item href="/services/banking-services">
+							Banking Services
+						</NavDropdown.Item>
+						<NavDropdown.Item href="/services/payment-services">
+							Payment Services
+						</NavDropdown.Item>
+						<NavDropdown.Item href="/services/gift-cards">
+							Gift Cards
+						</NavDropdown.Item>
+						<NavDropdown.Item href="/services/whitelabel">
+							Whitelabel
+						</NavDropdown.Item>
+						<NavDropdown.Item href="/services/api">
+							API Services
 						</NavDropdown.Item>
 					</NavDropdown>
-
 					<NavDropdown
 						renderMenuOnMount={true}
 						title="Partner with us"

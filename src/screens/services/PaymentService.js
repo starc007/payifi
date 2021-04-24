@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from "../../components/Navbar";
 import Recharge from "../../assets/Content/1.jpeg";
+import P1 from "../../assets/Payment/1.png";
+import P2 from "../../assets/Payment/2.png";
+import P4 from "../../assets/Payment/4.png";
 
 const PaymentService = () => {
     return (
@@ -9,25 +12,29 @@ const PaymentService = () => {
 					<Header />
 				</div>
 				<div>
-					<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-						<div className="md:w-1/2 w-full p-5">
-							<label className="md:text-4xl text-3xl font-medium">
+					<div className="h-auto bg-gray-100 flex-wrap flex justify-around w-full">
+						<div className="md:w-2/5 w-full p-5">
+							<label className="md:font-bold md:text-4xl text-3xl font-medium">
 								Payment Services
 							</label>
 
-							<label>
+							<label className="md:font-medium">
 								Now Accept Payments Through various Modes Like MPOS,
 							</label>
-							<label>Payment Links and UPI QR and enrich your Shop</label>
+							<label className="md:font-medium">
+								Payment Links and UPI QR and enrich your Shop
+							</label>
 							<br />
-							<label>and Customers smartly and securely.</label>
+							<label className="md:font-medium">
+								and Customers smartly and securely.
+							</label>
 							<br />
 							<button className="btn-style focus:outline-none h-10 font-medium md:w-48 w-full text-base rounded-xl mt-2 ">
 								Create Account for Free
 							</button>
 						</div>
-						<div className="md:w-1/2 p-5 ">
-							<img src={Recharge} width="380" />
+						<div className="md:w-2/5 p-5 ">
+							<img src={P1} width="380" />
 						</div>
 					</div>
 					<div className="w-full h-auto bg-white p-5 flex-wrap">
@@ -40,8 +47,8 @@ const PaymentService = () => {
 						</p>
 					</div>
 					<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-						<div className="md:w-1/2 p-2 ">
-							<img src={Recharge} />
+						<div className="md:w-1/2 p-4 ">
+							<img src={P2} width="400" />
 						</div>
 						<div className="md:w-1/2 w-full p-5">
 							<label className="md:font-bold md:text-5xl">mPOS</label>
@@ -79,8 +86,8 @@ const PaymentService = () => {
 						</div>
 					</div>
 					<div className="h-auto flex-wrap flex w-full bg-gray-100">
-						<div className="md:w-1/2 p-2 ">
-							<img src={Recharge} />
+						<div className="md:w-1/2 p-4 ">
+							<img src={P4} width="400" />
 						</div>
 						<div className="md:w-1/2 w-full p-5">
 							<label className="md:font-bold md:text-5xl">My QR/UPI</label>

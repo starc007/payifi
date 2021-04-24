@@ -10,12 +10,15 @@ import AboutUs from "./screens/AboutUs";
 import Distributor from "./screens/Distributor";
 import PaymentService from "./screens/services/PaymentService";
 import GiftCard from "./screens/services/GiftCard";
+import WhiteLabel from "./screens/services/WhiteLabel";
+import PrivacyPolicy from "./screens/PrivacyPolicy";
+import Api from "./screens/services/Api";
 
 function App() {
 	return (
 		<Router>
 			{/* <Header /> */}
-			<Float />
+			{/* <Float /> */}
 			<Switch>
 				<Route path="/" exact={true} component={Home} />
 				<Route
@@ -33,11 +36,18 @@ function App() {
 					exact={true}
 					component={PaymentService}
 				/>
+				<Route path="/services/gift-cards" exact={true} component={GiftCard} />
 				<Route
-					path="/services/gift-cards"
+					path="/services/whitelabel"
 					exact={true}
-					component={GiftCard}
+					component={WhiteLabel}
 				/>
+				<Route
+					path="/services/api"
+					exact={true}
+					component={Api}
+				/>
+				<Route path="/privacy-policy" exact={true} component={PrivacyPolicy} />
 				<Route path="/about-us" exact={true} component={AboutUs} />
 				<Route
 					path="/partner-with-us/distributor"

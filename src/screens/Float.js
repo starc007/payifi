@@ -57,14 +57,14 @@ const Float = () => {
 						</li>
 					</a>
 					<br />
-					<a href="#">
+					<a href="/services/whitelabel">
 						<li className="li-extra1">
 							<RiBankCardFill size={32} className="ml-4 mb-1" />
 							Whitelabel
 						</li>
 					</a>
 					<br />
-					<a href="#">
+					<a href="/services/api">
 						<li className="li-extra1">
 							<RiBankCardFill size={32} className="ml-4 mb-1" />
 							API Services

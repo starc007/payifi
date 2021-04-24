@@ -1,6 +1,11 @@
 import React from "react";
 import Header from "../../components/Navbar";
 import Recharge from "../../assets/Content/1.jpeg";
+import B3 from "../../assets/Banking/3.png";
+import B4 from "../../assets/Banking/4.png";
+import B1 from "../../assets/Banking/1.png";
+
+
 
 const BillPayment = () => {
 	return (
@@ -9,8 +14,8 @@ const BillPayment = () => {
 				<Header />
 			</div>
 			<div>
-				<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-					<div className="md:w-1/2 w-full p-5">
+				<div className="h-auto bg-gray-100 flex-wrap justify-around flex w-full">
+					<div className="md:w-2/5 w-full p-5">
 						<label className="md:font-bold md:text-4xl text-3xl font-medium">
 							Banking Services
 						</label>
@@ -28,12 +33,12 @@ const BillPayment = () => {
 							Transfer facility and convert your Shop into Small Digital Bank.
 						</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+						<button className="btn-style focus:outline-none h-10 font-medium md:w-1/2 w-full text-base rounded-xl mt-2 ">
 							Register here to Know More
 						</button>
 					</div>
-					<div className="md:w-1/2 p-5 ">
-						<img src={Recharge} width="380" />
+					<div className="md:w-2/5 p-5 ">
+						<img src={B1} width="400" />
 					</div>
 				</div>
 				<div className="w-full h-auto bg-white p-5 flex-wrap">
@@ -84,13 +89,13 @@ const BillPayment = () => {
 							Register here to Know More
 						</button>
 					</div>
-					<div className="md:w-1/2 p-2 ">
-						<img src={Recharge} />
+					<div className="md:w-1/2 p-5 ">
+						<img src={B3} width="400" />
 					</div>
 				</div>
 				<div className="h-auto flex-wrap flex w-full bg-gray-100">
-					<div className="md:w-1/2 p-2 ">
-						<img src={Recharge} />
+					<div className="md:w-1/2 p-5 ">
+						<img src={B4} width="400" />
 					</div>
 					<div className="md:w-1/2 w-full p-5">
 						<label className="md:font-bold md:text-5xl">Money Transfer</label>

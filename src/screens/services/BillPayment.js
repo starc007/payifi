@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/Navbar';
-import Recharge from '../../assets/Content/1.jpeg'
+import Recharge from '../../assets/Content/Bill.png'
 import Mrecharge from '../../assets/Content/Mrecharge.png'
 import Utility from "../../assets/Content/Utility.png";
 import Dth from "../../assets/Content/Dth.png";
@@ -13,8 +13,8 @@ const BillPayment = () => {
 					<Header />
 				</div>
 				<div>
-					<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-						<div className="md:w-1/2 w-full p-5">
+					<div className="h-auto bg-gray-100 flex-wrap flex justify-around w-full">
+						<div className="md:w-2/5 w-full p-5">
 							<label className="md:font-bold md:text-4xl text-3xl font-medium">
 								Bill Payments & <br />
 								Recharges
@@ -37,7 +37,7 @@ const BillPayment = () => {
 								Register here for Free
 							</button>
 						</div>
-						<div className="md:w-1/2 p-5 ">
+						<div className="md:w-2/5 p-5 ">
 							<img src={Recharge} width="380" />
 						</div>
 					</div>

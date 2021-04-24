@@ -191,13 +191,10 @@
 }
 
 .testimonial_095_slide>a {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     display: block;
-    color: #000;
-    font-size: 18px;
-    line-height: 46px;
-    border: 3px solid #000;
+    /* border: 3px solid #000; */
     -webkit-border-radius: 100%;
     border-radius: 100%
 }

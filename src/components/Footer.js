@@ -83,33 +83,7 @@ const Footer = () => {
 							Developer Portal
 						</a>
 					</li>
-					<li>
-						<a
-							href="#"
-							className="text-white"
-							style={{ textDecorationLine: "none" }}
-						>
-							News
-						</a>
-					</li>
-					<li>
-						<a
-							href="#"
-							className="text-white"
-							style={{ textDecorationLine: "none" }}
-						>
-							Testimonials
-						</a>
-					</li>
-					<li>
-						<a
-							href="#"
-							className="text-white"
-							style={{ textDecorationLine: "none" }}
-						>
-							Career
-						</a>
-					</li>
+
 					<li>
 						<a
 							href="#"
@@ -126,7 +100,7 @@ const Footer = () => {
 				<ul className="ul-styling">
 					<li>
 						<a
-							href="#"
+							href="/services/bill-payment-recharge"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
@@ -135,7 +109,7 @@ const Footer = () => {
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/services/banking-services"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
@@ -144,7 +118,7 @@ const Footer = () => {
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/services/payment-services"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
@@ -153,29 +127,29 @@ const Footer = () => {
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/services/gift-cards"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
-							Travel & E-Governance Services
+							Gift Cards
 						</a>
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/services/whitelabel"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
-							EMI & Cash Collection
+							Whitelabel
 						</a>
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/services/api"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
-							Khata Management
+							API Services
 						</a>
 					</li>
 				</ul>
@@ -200,7 +174,7 @@ const Footer = () => {
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/privacy-policy"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>

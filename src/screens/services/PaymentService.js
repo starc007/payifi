@@ -4,8 +4,10 @@ import Recharge from "../../assets/Content/1.jpeg";
 import P1 from "../../assets/Payment/1.png";
 import P2 from "../../assets/Payment/2.png";
 import P4 from "../../assets/Payment/4.png";
+import { RetailerSignup } from '../../components/ModalComponent';
 
 const PaymentService = () => {
+	const [modalShow1, setModalShow1] = React.useState(false);
     return (
 			<div className="h-full">
 				<div className="h-16">
@@ -29,9 +31,16 @@ const PaymentService = () => {
 								and Customers smartly and securely.
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium md:w-48 w-full text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium md:w-48 w-full text-base rounded-xl mt-2 "
+							>
 								Create Account for Free
 							</button>
+							<RetailerSignup
+								show={modalShow1}
+								onHide={() => setModalShow1(false)}
+							/>
 						</div>
 						<div className="md:w-2/5 p-5 ">
 							<img src={P1} width="380" />
@@ -61,7 +70,10 @@ const PaymentService = () => {
 								Maintenance
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+							>
 								Register here to Know More
 							</button>
 						</div>
@@ -77,7 +89,10 @@ const PaymentService = () => {
 								Settlement
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+							>
 								Register here to Know More
 							</button>
 						</div>
@@ -100,7 +115,10 @@ const PaymentService = () => {
 								Performed Instantly
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+							>
 								Register here to Know More
 							</button>
 						</div>

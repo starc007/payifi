@@ -65,7 +65,7 @@ const Header = () => {
 						</NavDropdown.Item>
 					</NavDropdown>
 
-					<Nav.Link href="#link">Contact Us</Nav.Link>
+					<Nav.Link href="/contact-us">Contact Us</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

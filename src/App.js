@@ -13,6 +13,7 @@ import GiftCard from "./screens/services/GiftCard";
 import WhiteLabel from "./screens/services/WhiteLabel";
 import PrivacyPolicy from "./screens/PrivacyPolicy";
 import Api from "./screens/services/Api";
+import ContactUs from "./screens/ContactUs";
 
 function App() {
 	return (
@@ -42,13 +43,10 @@ function App() {
 					exact={true}
 					component={WhiteLabel}
 				/>
-				<Route
-					path="/services/api"
-					exact={true}
-					component={Api}
-				/>
+				<Route path="/services/api" exact={true} component={Api} />
 				<Route path="/privacy-policy" exact={true} component={PrivacyPolicy} />
 				<Route path="/about-us" exact={true} component={AboutUs} />
+				<Route path="/contact-us" exact={true} component={ContactUs} />
 				<Route
 					path="/partner-with-us/distributor"
 					exact={true}

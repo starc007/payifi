@@ -6,8 +6,10 @@ import { AiOutlineIdcard } from "react-icons/ai";
 
 import Header from "../../components/Navbar";
 import giftcard from "../../assets/giftcard.png";
+import { RetailerSignup } from "../../components/ModalComponent";
 
 const PaymentService = () => {
+	const [modalShow1, setModalShow1] = React.useState(false);
 	return (
 		<div className="h-full">
 			<div className="h-16">
@@ -30,9 +32,16 @@ const PaymentService = () => {
 						<br />
 						<label> brands store.</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-48 w-full text-base rounded-xl mt-2 ">
+						<button
+							onClick={() => setModalShow1(true)}
+							className="btn-style focus:outline-none h-10 font-medium md:w-48 w-full text-base rounded-xl mt-2 "
+						>
 							Create Account for Free
 						</button>
+						<RetailerSignup
+							show={modalShow1}
+							onHide={() => setModalShow1(false)}
+						/>
 					</div>
 					<div className="md:w-2/5 p-5 ">
 						<img src={giftcard} width="380" />
@@ -62,7 +71,10 @@ const PaymentService = () => {
 							brands/ stores or sometimes as an alternative of cash.
 						</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+						<button
+							onClick={() => setModalShow1(true)}
+							className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+						>
 							Register here to Know More
 						</button>
 					</div>
@@ -79,7 +91,10 @@ const PaymentService = () => {
 							brands/ stores or sometimes as an alternative of cash.
 						</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+						<button
+							onClick={() => setModalShow1(true)}
+							className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+						>
 							Register here to Know More
 						</button>
 					</div>

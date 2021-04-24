@@ -17,8 +17,10 @@ import face2 from '../assets/02.png'
 
 import "../Testimonial.css";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+import { DistributorSignup } from "../components/ModalComponent";
 
 const Home = () => {
+	const [modalShow, setModalShow] = React.useState(false);
 	return (
 		<div className="h-full">
 			<div className="h-16">
@@ -90,9 +92,16 @@ const Home = () => {
 						<br /> for you on our Application
 					</p>
 					<div className="flex justify-center">
-						<button className="btn-style focus:outline-none h-10 font-medium w-40 text-base rounded-xl mx-4 ">
+						<button
+							onClick={() => setModalShow(true)}
+							className="btn-style focus:outline-none h-10 font-medium w-40 text-base rounded-xl mx-4 "
+						>
 							CREATE ACCOUNT
 						</button>
+						<DistributorSignup
+							show={modalShow}
+							onHide={() => setModalShow(false)}
+						/>
 						<button className="btn-style2 focus:outline-none h-10 font-medium w-32 text-base rounded-xl  ">
 							READ MORE
 						</button>

@@ -4,10 +4,12 @@ import Recharge from "../../assets/Content/1.jpeg";
 import B3 from "../../assets/Banking/3.png";
 import B4 from "../../assets/Banking/4.png";
 import B1 from "../../assets/Banking/1.png";
+import { RetailerSignup } from "../../components/ModalComponent";
 
 
 
 const BillPayment = () => {
+	const [modalShow1, setModalShow1] = React.useState(false);
 	return (
 		<div className="h-full">
 			<div className="h-16">
@@ -33,9 +35,16 @@ const BillPayment = () => {
 							Transfer facility and convert your Shop into Small Digital Bank.
 						</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-1/2 w-full text-base rounded-xl mt-2 ">
+						<button
+							onClick={() => setModalShow1(true)}
+							className="btn-style focus:outline-none h-10 font-medium md:w-1/2 w-full text-base rounded-xl mt-2 "
+						>
 							Register here to Know More
 						</button>
+						<RetailerSignup
+							show={modalShow1}
+							onHide={() => setModalShow1(false)}
+						/>
 					</div>
 					<div className="md:w-2/5 p-5 ">
 						<img src={B1} width="400" />
@@ -67,7 +76,10 @@ const BillPayment = () => {
 							transaction.
 						</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+						<button
+							onClick={() => setModalShow1(true)}
+							className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+						>
 							Register here to Know More
 						</button>
 					</div>
@@ -85,7 +97,10 @@ const BillPayment = () => {
 							transaction.
 						</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+						<button
+							onClick={() => setModalShow1(true)}
+							className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+						>
 							Register here to Know More
 						</button>
 					</div>
@@ -109,7 +124,10 @@ const BillPayment = () => {
 							earn on every Transaction.
 						</label>
 						<br />
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+						<button
+							onClick={() => setModalShow1(true)}
+							className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+						>
 							Register here to Know More
 						</button>
 					</div>

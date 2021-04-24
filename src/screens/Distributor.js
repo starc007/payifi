@@ -20,13 +20,7 @@ const Distributor = () => {
 				<div className="h-auto relative">
 					<img src={imgfaltu} />
 					<div className="absolute text-content">
-						{/* <label className="text-white text-4xl font-medium">
-							Get attached to India’s Fastest Growing Network and Expand Your
-							Distributor Business and Earn Extra Income
-						</label>
-						<button className="btn-style focus:outline-none h-10 font-medium md:w-48 w-full text-lg rounded-xl mt-2 ">
-							Sign Up Now
-						</button> */}
+						
 					</div>
 				</div>
 				<div className="bg-gray-100 h-auto pt-2 pb-4">

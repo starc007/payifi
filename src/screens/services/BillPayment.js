@@ -4,9 +4,11 @@ import Recharge from '../../assets/Content/Bill.png'
 import Mrecharge from '../../assets/Content/Mrecharge.png'
 import Utility from "../../assets/Content/Utility.png";
 import Dth from "../../assets/Content/Dth.png";
+import { RetailerSignup } from '../../components/ModalComponent';
 
 
 const BillPayment = () => {
+	const [modalShow1, setModalShow1] = React.useState(false);
     return (
 			<div className="h-full">
 				<div className="h-16">
@@ -33,9 +35,16 @@ const BillPayment = () => {
 								are frequent in nature and will ensure recurring income.
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium w-48 text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium w-48 text-base rounded-xl mt-2 "
+							>
 								Register here for Free
 							</button>
+							<RetailerSignup
+								show={modalShow1}
+								onHide={() => setModalShow1(false)}
+							/>
 						</div>
 						<div className="md:w-2/5 p-5 ">
 							<img src={Recharge} width="380" />
@@ -69,7 +78,10 @@ const BillPayment = () => {
 								every transaction.
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+							>
 								Register here to Know More
 							</button>
 						</div>
@@ -85,7 +97,10 @@ const BillPayment = () => {
 								Airtel, Videocon etc. and earn with every transaction.
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+							>
 								Register here to Know More
 							</button>
 						</div>
@@ -111,7 +126,10 @@ const BillPayment = () => {
 								transaction.
 							</label>
 							<br />
-							<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+							<button
+								onClick={() => setModalShow1(true)}
+								className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 "
+							>
 								Register here to Know More
 							</button>
 						</div>

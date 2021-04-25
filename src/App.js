@@ -14,6 +14,8 @@ import WhiteLabel from "./screens/services/WhiteLabel";
 import PrivacyPolicy from "./screens/PrivacyPolicy";
 import Api from "./screens/services/Api";
 import ContactUs from "./screens/ContactUs";
+import Retailer from "./screens/Retailer";
+import TermsAndCondition from "./screens/TermsAndCondition";
 
 function App() {
 	return (
@@ -45,12 +47,18 @@ function App() {
 				/>
 				<Route path="/services/api" exact={true} component={Api} />
 				<Route path="/privacy-policy" exact={true} component={PrivacyPolicy} />
+				<Route path="/terms-and-conditions" exact={true} component={TermsAndCondition} />
 				<Route path="/about-us" exact={true} component={AboutUs} />
 				<Route path="/contact-us" exact={true} component={ContactUs} />
 				<Route
 					path="/partner-with-us/distributor"
 					exact={true}
 					component={Distributor}
+				/>
+				<Route
+					path="/partner-with-us/retailer"
+					exact={true}
+					component={Retailer}
 				/>
 				<Redirect to="/" />
 			</Switch>

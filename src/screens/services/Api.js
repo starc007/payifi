@@ -4,7 +4,8 @@ import { BsReverseLayoutTextSidebarReverse } from "react-icons/bs";
 
 import Header from "../../components/Navbar";
 
-import API from "../../assets/API.png";
+// import API from "../../assets/API.png";
+import API from "../../assets/apiban.png";
 import ApiPage from "../../assets/ApiPage.png";
 import Logo4 from "../../assets/WhiteLabel/Group-38.png";
 import Logo6 from "../../assets/WhiteLabel/Group-39.png";
@@ -19,8 +20,8 @@ const Api = () => {
 			<div className="h-16">
 				<Header />
 			</div>
-			<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-				<div className="md:w-1/2 w-full p-5">
+			<div className="h-auto bg-gray-100 flex-wrap flex justify-around w-full">
+				<div className="md:w-2/5 w-full p-5">
 					<label className="md:text-4xl text-3xl font-medium">API</label>
 					<br />
 
@@ -34,11 +35,11 @@ const Api = () => {
 					<br />
 					<label>B2B or B2C portal at minimum time</label>
 					<br />
-					<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+					<button className="btn-style focus:outline-none h-10 font-medium md:w-1/2 w-full text-base rounded-xl mt-2 ">
 						Register here to know More
 					</button>
 				</div>
-				<div className="md:w-1/2 p-5 ">
+				<div className="md:w-2/5 p-5 w-full ">
 					<img src={API} width="380" />
 				</div>
 			</div>
@@ -94,7 +95,7 @@ const Api = () => {
 			</div>
 			<div className="h-auto ">
 				<p className="md:text-5xl text-3xl font-bold text-center flex-wrap">
-					Build Payments or Banking App 
+					Build Payments or Banking App
 				</p>
 				<div className="h-auto flex-wrap flex justify-center">
 					<div className="md:w-1/4 w-full p-4">

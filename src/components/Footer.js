@@ -49,7 +49,7 @@ const Footer = () => {
 				<ul className="ul-styling">
 					<li>
 						<a
-							href="#"
+							href="/about-us"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
@@ -58,7 +58,7 @@ const Footer = () => {
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/partner-with-us/retailer"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
@@ -67,7 +67,7 @@ const Footer = () => {
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/partner-with-us/distributor"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
@@ -86,7 +86,7 @@ const Footer = () => {
 
 					<li>
 						<a
-							href="#"
+							href="/contact-us"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>
@@ -165,7 +165,7 @@ const Footer = () => {
 				<ul className="ul-styling">
 					<li>
 						<a
-							href="#"
+							href="/terms-and-conditions"
 							className="text-white"
 							style={{ textDecorationLine: "none" }}
 						>

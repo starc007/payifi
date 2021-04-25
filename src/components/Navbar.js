@@ -43,7 +43,9 @@ const Header = () => {
 						title="Partner with us"
 						id="basic-nav-dropdown"
 					>
-						<NavDropdown.Item href="#action/3.1">Retailer</NavDropdown.Item>
+						<NavDropdown.Item href="/partner-with-us/retailer">
+							Retailer
+						</NavDropdown.Item>
 						<NavDropdown.Item href="/partner-with-us/distributor">
 							Distributor
 						</NavDropdown.Item>

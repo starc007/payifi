@@ -43,7 +43,7 @@ const AboutUs = () => {
 						Why Financial Inclusion?
 					</label>
 					<div className="flex pl-4 flex-wrap w-full">
-						<div className="md:w-1/2 w-full">
+						<div className="md:w-1/2 w-full p-2">
 							<p className="md:font-medium md:text-lg flex-wrap">
 								Financial Inclusion doesn’t restrict just to rural or backward
 								India, its primary aim to include every Indian to banking
@@ -69,7 +69,7 @@ const AboutUs = () => {
 					</p>
 					<ul
 						style={{ listStyle: "unset", marginLeft: 50 }}
-						className="text-lg"
+						className="text-lg p-2"
 					>
 						<li>
 							A safe and secure technology to the Small Shop Keepers via app or
@@ -85,16 +85,16 @@ const AboutUs = () => {
 						<li>Payment and cash Collection Services</li>
 					</ul>
 					<label className="text-xl font-bold pl-4">We partnered with:</label>
-					<p className="text-lg pl-4">
+					<p className="text-lg pl-4 pr-2">
 						<span className="font-medium">Retailers:</span> to enable them to
 						earn more and provide banking facilities at last mile.
 					</p>
-					<p className="text-lg pl-4">
+					<p className="text-lg pl-4 pr-2">
 						<span className="font-medium">Distributors:</span> to provide
 						training and support in running operations effectively to retailers
 						to enable them to provide financial services at last mile.
 					</p>
-					<p className="text-lg pl-4">
+					<p className="text-lg pl-4 pr-2">
 						<span className="font-medium">Developers:</span> to provide secure
 						and fast APIs to help propagate the Financial Inclusions at last
 						mile.
@@ -102,18 +102,18 @@ const AboutUs = () => {
 				</div>
 				<div className="bg-white h-auto flex-wrap">
 					<p className="text-4xl font-medium pt-2 text-center">Vision</p>
-					<p className="text-base text-center">
+					<p className="text-base text-center p-2">
 						To entrust and Transform Lives, through providing Innovative
 						Financial Solutions in Digital Payments.
 					</p>
 					<p className="text-4xl font-medium text-center">Mission</p>
-					<p className="text-base text-center flex-wrap">
+					<p className="text-base text-center flex-wrap p-2">
 						To establish a robust nationwide payment ecosystem, in a seamlessly
 						networked environment, using mobile technology to deliver payments
 						and remittances in real time.
 					</p>
 					<p className="text-4xl font-medium text-center ">Values</p>
-					<p className="text-base pl-5 flex-wrap">
+					<p className="text-base pl-5 flex-wrap p-2">
 						<span className="font-bold">SECURITY & TRUST: </span> We strive to
 						become the most secure and trusted brand in the market we operate
 						<br />
@@ -136,7 +136,7 @@ const AboutUs = () => {
 				</div>
 				<div className="bg-gray-100 h-auto text-center flex-wrap pb-2">
 					<p className="text-4xl pt-2">Our Partners</p>
-					<p className="text-base flex-wrap">
+					<p className="text-base flex-wrap p-2">
 						We at payifi partnered with various banks and other Financial
 						Institutions to empower and provide Financial Inclusion services at
 						the Last mile, <br />
@@ -162,13 +162,13 @@ const AboutUs = () => {
 							</div>
 						</div>
 						<div className="md:w-2/3 w-full text">
-							<label className="text-color-main  text-2xl">
+							<label className="text-color-main  text-2xl md:pl-2">
 								Abhimanyu Malhotra, CEO,CTO
 							</label>
-							<div className="icn">
+							<div className="icn md:pl-2">
 								<FaLinkedin size={26} color="#007BB5" />
 							</div>
-							<p className="text-base font-semibold flex-wrap">
+							<p className="text-base font-semibold p-2">
 								Having a vast Experience in various Fields right from Banking to
 								Real Estate to Retail Industry, worked with various Reputed
 								Organizations, his rich experience brings dynamics to the
@@ -182,13 +182,13 @@ const AboutUs = () => {
 							<div className="img-sir"></div>
 						</div>
 						<div className="md:w-2/3 w-full text">
-							<label className="text-color-main  text-2xl">
+							<label className="text-color-main  text-2xl md:pl-2">
 								Ankita Arora, Co- Founder, COO
 							</label>
-							<div className="icn">
+							<div className="icn md:pl-2">
 								<FaLinkedin size={26} color="#007BB5" />
 							</div>
-							<p className="text-base font-semibold flex-wrap">
+							<p className="text-base font-semibold p-2">
 								Co- Founded the company and has a vast experience in Tech and
 								Retail, Looking after the Operations in the company right from
 								Product development Till delivery, her ability to conjugate with
@@ -202,13 +202,13 @@ const AboutUs = () => {
 							<div className="img-sir"></div>
 						</div>
 						<div className="md:w-2/3 w-full text">
-							<label className="text-color-main  text-2xl">
+							<label className="text-color-main  text-2xl md:pl-2">
 								Sapna Malhotra, Co- Founder, CBO
 							</label>
-							<div className="icn">
+							<div className="icn md:pl-2">
 								<FaLinkedin size={26} color="#007BB5" />
 							</div>
-							<p className="text-base font-semibold flex-wrap">
+							<p className="text-base font-semibold p-2">
 								Co- Founded the company and has a rich experience in Building
 								the Go to Market Strategies along with her right Entrepreneurial
 								Skills and in depth understanding of market makes her problem

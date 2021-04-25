@@ -7,9 +7,9 @@ const PrivacyPolicy = () => {
 				<div className="h-16">
 					<Header />
 				</div>
-				<div className="h-auto flex-wrap pt-4 pb-4">
+				<div className="h-auto pt-4 pb-4">
 					<p className="text-center font-semibold text-xl">Privacy Policy</p>
-					<div className="pl-4">
+					<div className="pl-4 pr-4">
 						<p>
 							Payifi Merchant, are an application (hereinafter referred to as
 							“Payifi Apps or Payifi” ) or any other future product/app

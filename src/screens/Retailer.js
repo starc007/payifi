@@ -180,7 +180,7 @@ const Retailer = () => {
 				<p className="text-center text-4xl font-medium">
 					Become a Part of Payifi network
 				</p>
-				<p className="text-center font-light text-2xl">
+				<p className="text-center font-light">
 					Note:A OTP will complete the Registration
 				</p>
 				<div className="flex justify-center ">

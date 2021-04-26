@@ -49,6 +49,9 @@ const Header = () => {
 						<NavDropdown.Item href="/partner-with-us/distributor">
 							Distributor
 						</NavDropdown.Item>
+						<NavDropdown.Item href="/services/whitelabel">
+							Whitelabel
+						</NavDropdown.Item>
 						<NavDropdown.Item href="#action/3.3">
 							Developer API
 						</NavDropdown.Item>

@@ -6,21 +6,38 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
 import Header from "../components/Navbar";
-import imgfaltu from "../assets/Slider/Slider1.png";
+import imgfaltu from "../assets/Slider/Slider3.png";
+import Man from "../assets/DistributorMan.jpg";
 import { Form } from "react-bootstrap";
+import { DistributorSignup } from "../components/ModalComponent";
 
 const Distributor = () => {
-    const [phone, setPhone] = useState();
+	const [phone, setPhone] = useState();
+	const [modalShow, setModalShow] = useState(false);
 	return (
 		<div className="h-full">
 			<div className="h-16">
 				<Header />
 			</div>
 			<div className="flex-wrap">
-				<div className="h-auto relative">
-					<img src={imgfaltu} />
-					<div className="absolute text-content">
+				<div className="h-auto relative inline-block ">
+					<img src={imgfaltu} className="block" />
+					<div className="text-content">
+						<p className="md:text-4xl text-sm">
+							Get attached to India’s Fastest Growing Network and Expand Your
+							Distributor Business and Earn Extra Income
+						</p>
 						
+						<button
+							onClick={() => setModalShow(true)}
+							className=" btn-style focus:outline-none md:h-10 h-6 w-24 md:w-32 text-sm md:text-base rounded-lg "
+						>
+							Sign Up Now
+						</button>
+						<DistributorSignup
+							show={modalShow}
+							onHide={() => setModalShow(false)}
+						/>
 					</div>
 				</div>
 				<div className="bg-gray-100 h-auto pt-2 pb-4">
@@ -100,7 +117,9 @@ const Distributor = () => {
 					</div>
 				</div>
 				<div className="h-auto bg-gray-100 w-full flex flex-wrap">
-					<div className="md:w-2/5 w-full bg-blue-700"></div>
+					<div className="md:w-2/5 w-full p-5">
+						<img src={Man} />
+					</div>
 					<div className="md:w-3/5 w-full">
 						<label className="font-medium text-3xl pl-4">
 							Becoming a Payifi Distributor is Fayeda Ka Sauda

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Navbar";
-import imgfaltu from "../assets/Aboutus.jpeg";
+import imgfaltu from "../assets/Our Story_01.png";
 import PhoneInput from "react-phone-input-2";
 import { Col, Form, Row } from "react-bootstrap";
 import "react-phone-input-2/lib/style.css";
@@ -16,7 +16,9 @@ const ContactUs = () => {
 			<div className="h-auto relative w-full flex justify-center items-center">
 				<img src={imgfaltu} width="100%" style={{ height: 280 }} />
 				<div className="absolute">
-					<label className="text-white md:text-6xl text-4xl">Get in Touch</label>
+					<label className="text-white md:text-6xl text-4xl">
+						Get in Touch
+					</label>
 				</div>
 			</div>
 			<div className="h-auto flex flex-wrap pt-4 p-4">
@@ -107,7 +109,7 @@ const ContactUs = () => {
 								</div>
 							</div>
 							<div className="flex">
-								<div >
+								<div>
 									<MdEmail size={35} />
 								</div>
 								<div className="p-1 pl-2">
@@ -128,6 +130,16 @@ const ContactUs = () => {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div>
+						<iframe
+							className="w-full"
+							height="300"
+							frameborder="0"
+							style={{ border: 0, borderRadius: 10 }}
+							src="https://www.google.com/maps/embed/v1/place?q=dot%20com%20labs%20llp&key=AIzaSyBVwgVXcG_burcAyWMG5trvbfgAcVNBD1s"
+							allowfullscreen
+						></iframe>
 					</div>
 				</div>
 			</div>

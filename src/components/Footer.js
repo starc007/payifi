@@ -10,10 +10,10 @@ import {
 const Footer = () => {
 	return (
 		<div
-			className="h-auto w-full flex flex-wrap pt-4 pl-5"
+			className="h-auto w-full flex flex-wrap pt-4 pl-5 pb-4"
 			style={{ backgroundColor: "#212121" }}
 		>
-			<div className="md:w-1/4 w-full mt-5 ">
+			<div className="md:w-1/4 w-full mt-4 pl-4 ">
 				<img src={Logo} style={{ height: 40, width: 100 }} />
 				<p className="text-white pt-4">India’s Digital Network of Retailers</p>
 				<p className="text-white ">
@@ -44,7 +44,7 @@ const Footer = () => {
 					customer@payifi.com
 				</a>
 			</div>
-			<div className="md:w-1/4 w-full mt-5">
+			<div className="md:w-1/4 w-full mt-4 pl-4">
 				<p className="text-white text-xl">Payifi</p>
 				<ul className="ul-styling">
 					<li>
@@ -74,15 +74,6 @@ const Footer = () => {
 							Distributor
 						</a>
 					</li>
-					<li>
-						<a
-							href="#"
-							className="text-white"
-							style={{ textDecorationLine: "none" }}
-						>
-							Developer Portal
-						</a>
-					</li>
 
 					<li>
 						<a
@@ -95,7 +86,7 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="md:w-1/4 w-full mt-5">
+			<div className="md:w-1/4 w-full mt-4 pl-4">
 				<p className="text-white text-xl">Payifi Services</p>
 				<ul className="ul-styling">
 					<li>
@@ -154,13 +145,21 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="md:w-1/4 w-full mt-5">
+			<div className="md:w-1/4 w-full mt-4 pl-4">
 				<p className="text-white text-xl">Social Presence</p>
 				<div className="flex mb-2">
-					<FaFacebookSquare size={24} color="#3B5998" />
-					<FaLinkedin size={24} color="#007BB5" className="mx-2" />
-					<FaYoutube size={24} color="#BB0000" />
-					<FaWhatsapp size={24} color="#4FCE5D" className="mx-2" />
+					<a href="#">
+						<FaFacebookSquare size={24} color="#3B5998" />
+					</a>
+					<a href="#">
+						<FaLinkedin size={24} color="#007BB5" className="mx-2" />
+					</a>
+					<a href="#">
+						<FaYoutube size={24} color="#BB0000" />
+					</a>
+					<a href="#">
+						<FaWhatsapp size={24} color="#4FCE5D" className="mx-2" />
+					</a>
 				</div>
 				<ul className="ul-styling">
 					<li>

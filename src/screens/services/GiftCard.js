@@ -5,7 +5,9 @@ import { FaBullhorn } from "react-icons/fa";
 import { AiOutlineIdcard } from "react-icons/ai";
 
 import Header from "../../components/Navbar";
-import giftcard from "../../assets/giftcard.png";
+import G1 from "../../assets/Images/1.png";
+import G2 from "../../assets/Images/2.png";
+import G3 from "../../assets/Images/3.png";
 import { RetailerSignup } from "../../components/ModalComponent";
 
 const PaymentService = () => {
@@ -44,7 +46,7 @@ const PaymentService = () => {
 						/>
 					</div>
 					<div className="md:w-2/5 p-5 ">
-						<img src={giftcard} width="380" />
+						<img src={G1} width="380" />
 					</div>
 				</div>
 				<div className="w-full h-auto bg-white p-5 flex-wrap">
@@ -57,12 +59,11 @@ const PaymentService = () => {
 					</p>
 				</div>
 				<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-					<div className="md:w-1/2 p-2 ">
-						<img src={giftcard} width="380" />
+					<div className="md:w-1/2 p-4 ">
+						<img src={G2} width="340" />
 					</div>
 					<div className="md:w-1/2 w-full p-5">
-						{/* <label className="md:font-bold md:text-5xl">mPOS</label>
-						<br /> */}
+						
 						<label className="md:font-medium flex-wrap">
 							Gift Cards are today’s most often used gift medium. Gift cards are
 							similar to a prepaid debit card. These prepaid cards are offered
@@ -81,8 +82,7 @@ const PaymentService = () => {
 				</div>
 				<div className="h-auto flex-wrap flex w-full">
 					<div className="md:w-1/2 w-full p-5">
-						{/* <label className="md:font-bold md:text-5xl">Payment Link</label>
-						<br /> */}
+					
 						<label className="md:font-medium flex-wrap">
 							Gift Cards are today’s most often used gift medium. Gift cards are
 							similar to a prepaid debit card. These prepaid cards are offered
@@ -98,8 +98,8 @@ const PaymentService = () => {
 							Register here to Know More
 						</button>
 					</div>
-					<div className="md:w-1/2 p-2 ">
-						<img src={giftcard} width="380" />
+					<div className="md:w-1/2 p-4 ">
+						<img src={G3} width="340" />
 					</div>
 				</div>
 				<div className="h-auto flex justify-center flex-wrap w-full bg-gray-100 pb-4 pt-4">

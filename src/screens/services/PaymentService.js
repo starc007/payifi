@@ -3,6 +3,7 @@ import Header from "../../components/Navbar";
 import Recharge from "../../assets/Content/1.jpeg";
 import P1 from "../../assets/Payment/1.png";
 import P2 from "../../assets/Payment/2.png";
+import P3 from "../../assets/Payment/3.png";
 import P4 from "../../assets/Payment/4.png";
 import { RetailerSignup } from '../../components/ModalComponent';
 
@@ -97,7 +98,7 @@ const PaymentService = () => {
 							</button>
 						</div>
 						<div className="md:w-1/2 p-2 ">
-							<img src={Recharge} />
+							<img src={P3} />
 						</div>
 					</div>
 					<div className="h-auto flex-wrap flex w-full bg-gray-100">

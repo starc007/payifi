@@ -14,7 +14,7 @@ import "react-phone-input-2/lib/style.css";
 
 import Header from "../../components/Navbar";
 
-import Whitelabel from "../../assets/Whitelabel.png";
+import Whitelabel from "../../assets/label.png";
 import Logo1 from "../../assets/WhiteLabel/aadhaar-enabled-payment-system-services-500x500-1-e1612885750134.png";
 import Logo2 from "../../assets/WhiteLabel/BBPS_Logo-1024x340.png";
 import Logo3 from "../../assets/WhiteLabel/Group-40.png";
@@ -34,8 +34,8 @@ const WhiteLabel = () => {
 				<Header />
 			</div>
 
-			<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-				<div className="md:w-1/2 w-full p-5">
+			<div className="h-auto bg-gray-100 flex-wrap flex justify-around w-full">
+				<div className="md:w-2/5 w-full p-5">
 					<label className="md:text-4xl text-3xl font-medium">Whitelabel</label>
 
 					<label>
@@ -49,11 +49,11 @@ const WhiteLabel = () => {
 					<br />
 					<label>Business model with unlimited earning potential</label>
 					<br />
-					<button className="btn-style focus:outline-none h-10 font-medium md:w-2/5 w-full text-base rounded-xl mt-2 ">
+					<button className="btn-style focus:outline-none h-10 font-medium md:w-1/2 w-full text-base rounded-xl mt-2 ">
 						Register here to know More
 					</button>
 				</div>
-				<div className="md:w-1/2 p-5 ">
+				<div className="md:w-2/5 p-5 ">
 					<img src={Whitelabel} width="380" />
 				</div>
 			</div>

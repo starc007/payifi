@@ -52,7 +52,7 @@ const Header = () => {
 						<NavDropdown.Item href="/services/whitelabel">
 							Whitelabel
 						</NavDropdown.Item>
-						<NavDropdown.Item href="#action/3.3">
+						<NavDropdown.Item href="/services/api">
 							Developer API
 						</NavDropdown.Item>
 					</NavDropdown>
@@ -62,7 +62,7 @@ const Header = () => {
 						title="Login"
 						id="basic-nav-dropdown"
 					>
-						<NavDropdown.Item href="#action/3.1">
+						<NavDropdown.Item href="https://user.payifi.in/login">
 							Retailer Login
 						</NavDropdown.Item>
 						<NavDropdown.Item href="#action/3.2">

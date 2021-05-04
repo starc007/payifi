@@ -11,20 +11,44 @@ import {
 	FaGifts,
 } from "react-icons/fa";
 import Header from "../components/Navbar";
-import imgfaltu from "../assets/Slider/Slider1.png";
+import imgfaltu from "../assets/Slider/Slider2.png";
+import img1 from '../assets/WhiteLabel/payifi website-05.png'
+import img2 from '../assets/WhiteLabel/payifi website-06.png'
+import img3 from '../assets/WhiteLabel/payifi website-07.png'
+import img4 from '../assets/WhiteLabel/payifi website-08.png'
 import { Form } from "react-bootstrap";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import { RetailerSignup } from "../components/ModalComponent";
 const Retailer = () => {
 	const [phone, setPhone] = useState();
+	const [modalShow1, setModalShow1] = useState(false);
 	return (
 		<div className="h-auto">
 			<div className="h-16">
 				<Header />
 			</div>
-			<div className="h-auto relative">
-				<img src={imgfaltu} />
-				<div className="absolute text-content"></div>
+			<div className="h-auto relative inline-block">
+				<img src={imgfaltu} className="block" />
+				<div className="text-content md:leading-none leading-5">
+					<p className="md:font-bold md:text-5xl text-base md:mt-0 mt-4">
+						Become a Payifi Retailer <br />
+						<span className="md:font-bold md:text-3xl text-sm">
+							Be a Part of Revolution and Earn More
+						</span>
+					</p>
+
+					<button
+						onClick={() => setModalShow1(true)}
+						className=" btn-style focus:outline-none md:h-10 h-5 w-32 text-xs md:w-64 md:text-base rounded-lg  "
+					>
+						Create a Account Now
+					</button>
+					<RetailerSignup
+						show={modalShow1}
+						onHide={() => setModalShow1(false)}
+					/>
+				</div>
 			</div>
 			<div className="bg-gray-100 h-auto pt-2 pb-4">
 				<p className="text-center md:text-2xl text-xl">
@@ -111,14 +135,16 @@ const Retailer = () => {
 				<div className="flex justify-center flex-wrap ">
 					<div className="md:w-1/5 w-full p-4">
 						<div className="flex justify-center">
-							<AiOutlineDownload size={50} className="text-color-main" />
+							{/* <AiOutlineDownload size={50} className="text-color-main" /> */}
+							<img src={img1} width="60" />
 						</div>
 						<p className="font-semibold text-2xl pt-3 text-center">Step 1</p>
 						<p className="flex-wrap text-center text-xl">Download the App</p>
 					</div>
 					<div className="md:w-1/5 w-full p-4">
 						<div className="flex justify-center">
-							<FaRegistered size={50} className="text-color-main" />
+							{/* <FaRegistered size={50} className="text-color-main" /> */}
+							<img src={img2} width="60" />
 						</div>
 						<p className="font-semibold text-2xl pt-3 text-center">Step 2</p>
 						<p className="flex-wrap text-center text-xl">
@@ -127,7 +153,8 @@ const Retailer = () => {
 					</div>
 					<div className="md:w-1/5 w-full p-4">
 						<div className="flex justify-center">
-							<FaFileUpload size={50} className="text-color-main" />
+							{/* <FaFileUpload size={50} className="text-color-main" /> */}
+							<img src={img3} width="60" />
 						</div>
 						<p className="font-semibold text-2xl pt-3 text-center">Step 3</p>
 						<p className="flex-wrap text-center text-xl">
@@ -136,7 +163,8 @@ const Retailer = () => {
 					</div>
 					<div className="md:w-1/5 w-full p-4">
 						<div className="flex justify-center">
-							<GoVerified size={50} className="text-color-main" />
+							{/* <GoVerified size={50} className="text-color-main" /> */}
+							<img src={img4} width="60" />
 						</div>
 						<p className="font-semibold text-2xl pt-3 text-center">Step 4</p>
 						<p className="flex-wrap text-center text-xl">

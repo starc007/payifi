@@ -4,6 +4,7 @@ import Recharge from "../../assets/Content/1.jpeg";
 import B3 from "../../assets/Banking/3.png";
 import B4 from "../../assets/Banking/4.png";
 import B1 from "../../assets/Banking/1.png";
+import B2 from "../../assets/Banking/2.png";
 import { RetailerSignup } from "../../components/ModalComponent";
 
 
@@ -60,8 +61,8 @@ const BillPayment = () => {
 					</p>
 				</div>
 				<div className="h-auto bg-gray-100 flex-wrap flex w-full">
-					<div className="md:w-1/2 p-2 ">
-						<img src={Recharge} />
+					<div className="md:w-1/2 p-5 ">
+						<img src={B2} width="400" />
 					</div>
 					<div className="md:w-1/2 w-full p-5">
 						<label className="md:font-bold md:text-5xl">Aadhar ATM</label>

@@ -39,12 +39,12 @@ const AboutUs = () => {
 					</div>
 				</div>
 				<div className="bg-white h-auto pt-4">
-					<label className="md:text-4xl font-bold pl-4">
+					<p className="md:text-4xl font-bold pl-4 text-center">
 						Why Financial Inclusion?
-					</label>
-					<div className="flex pl-4 flex-wrap w-full">
-						<div className="md:w-1/2 w-full p-2">
-							<p className="md:font-medium md:text-lg flex-wrap">
+					</p>
+					<div className="flex justify-around pl-4 flex-wrap w-full">
+						<div className="md:w-2/5 w-full p-2">
+							<p className="md:font-medium md:text-lg">
 								Financial Inclusion doesn’t restrict just to rural or backward
 								India, its primary aim to include every Indian to banking
 								services irrespective of location. Indian Retail Market in both
@@ -58,8 +58,8 @@ const AboutUs = () => {
 								Network to empower themselves and country as a whole.
 							</p>
 						</div>
-						<div className="md:w-1/2 w-full ">
-							<img src={gif} alt="Payifi" />
+						<div className="md:w-2/5 w-full p-2 ">
+							<img src={gif} alt="Payifi" width="320" />
 						</div>
 					</div>
 				</div>
